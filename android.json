@@ -1,0 +1,24 @@
+{
+    "expansion": false,
+    "google_play_key": null,
+    "google_play_salt": null,
+    "heap_size": "2",
+    "icon_name": "Fuhrer",
+    "include_pil": false,
+    "include_sqlite": false,
+    "layout": null,
+    "name": "Fuhrer_My_Love",
+    "numeric_version": 1,
+    "orientation": "sensorLandscape",
+    "package": "fhurermylove.game",
+    "permissions": [
+        "VIBRATE",
+        "INTERNET"
+    ],
+    "source": false,
+    "store": "none",
+    "update_always": true,
+    "update_icons": true,
+    "update_keystores": true,
+    "version": "0.2.4"
+}

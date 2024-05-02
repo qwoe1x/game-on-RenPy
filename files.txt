@@ -1,0 +1,221 @@
+FOT-PopJoyStd-B.otf
+InterTight-Light.ttf
+PhoneTexting.rpy
+PhoneTexting.rpyc
+TurretRoad-Medium.ttf
+atl_text_tag.rpy
+atl_text_tag.rpyc
+discord.py
+explosion_text.rpy
+explosion_text.rpyc
+game_gui.rpy
+game_gui.rpyc
+glitch_tag.rpy
+glitch_tag.rpyc
+gradient_tags.rpy
+gradient_tags.rpyc
+gui.rpy
+gui.rpyc
+init.rpy
+init.rpyc
+kinetic_text_tags.rpy
+kinetic_text_tags.rpyc
+lovemetr.rpy
+lovemetr.rpyc
+options.rpy
+options.rpyc
+screens.rpy
+screens.rpyc
+script.rpy
+script.rpyc
+script2.rpy
+script2.rpyc
+setupRPC.rpy
+setupRPC.rpyc
+.vscode\settings.json
+audio\AlbumArtSmall.jpg
+audio\Folder.jpg
+audio\ReceiveText.ogg
+audio\SendText.ogg
+audio\SpotifyMate.com - Love Cheat! - Mosaic.Wav.mp3
+audio\alarm_clock.mp3
+audio\bathroom_water_sounds.mp3
+audio\cikadi.mp3
+audio\cola.mp3
+audio\mus.mp3
+audio\videoplayback.ogg
+cache\bytecode-39.rpyb
+cache\py3analysis.rpyb
+cache\screens.rpyb
+cache\shaders.txt
+gui\bubble.png
+gui\frame.png
+gui\game_menu.png
+gui\main_menu.png
+gui\namebox.png
+gui\notify.png
+gui\nvl.png
+gui\penis.png
+gui\skip.png
+gui\textbox.png
+gui\thoughtbubble.png
+gui\window_icon.png
+gui\bar\bottom.png
+gui\bar\left.png
+gui\bar\right.png
+gui\bar\top.png
+gui\button\check_foreground.png
+gui\button\check_selected_foreground.png
+gui\button\choice_hover_background.png
+gui\button\choice_idle_background.png
+gui\button\hover_background.png
+gui\button\idle_background.png
+gui\button\quick_hover_background.png
+gui\button\quick_idle_background.png
+gui\button\radio_foreground.png
+gui\button\radio_selected_foreground.png
+gui\button\slot_hover_background.png
+gui\button\slot_idle_background.png
+gui\main_menu\bg menu.png
+gui\main_menu\bg menu10.png
+gui\main_menu\bg menu11.png
+gui\main_menu\bg menu12.png
+gui\main_menu\bg menu13.png
+gui\main_menu\bg menu14.png
+gui\main_menu\bg menu15.png
+gui\main_menu\bg menu16.png
+gui\main_menu\bg menu17.png
+gui\main_menu\bg menu18.png
+gui\main_menu\bg menu19.png
+gui\main_menu\bg menu2.png
+gui\main_menu\bg menu3.png
+gui\main_menu\bg menu4.png
+gui\main_menu\bg menu5.png
+gui\main_menu\bg menu6.png
+gui\main_menu\bg menu7.png
+gui\main_menu\bg menu8.png
+gui\main_menu\bg menu9.png
+gui\overlay\confirm.png
+gui\overlay\game_menu.png
+gui\overlay\main_menu.png
+gui\phone\nvl.png
+gui\phone\textbox.png
+gui\phone\bar\bottom.png
+gui\phone\bar\left.png
+gui\phone\bar\right.png
+gui\phone\bar\top.png
+gui\phone\button\check_foreground.png
+gui\phone\button\check_selected_foreground.png
+gui\phone\button\choice_hover_background.png
+gui\phone\button\choice_idle_background.png
+gui\phone\button\hover_background.png
+gui\phone\button\idle_background.png
+gui\phone\button\radio_foreground.png
+gui\phone\button\radio_selected_foreground.png
+gui\phone\button\slot_hover_background.png
+gui\phone\button\slot_idle_background.png
+gui\phone\overlay\game_menu.png
+gui\phone\overlay\main_menu.png
+gui\phone\scrollbar\horizontal_hover_bar.png
+gui\phone\scrollbar\horizontal_hover_thumb.png
+gui\phone\scrollbar\horizontal_idle_bar.png
+gui\phone\scrollbar\horizontal_idle_thumb.png
+gui\phone\scrollbar\vertical_hover_bar.png
+gui\phone\scrollbar\vertical_hover_thumb.png
+gui\phone\scrollbar\vertical_idle_bar.png
+gui\phone\scrollbar\vertical_idle_thumb.png
+gui\phone\slider\horizontal_hover_bar.png
+gui\phone\slider\horizontal_hover_thumb.png
+gui\phone\slider\horizontal_idle_bar.png
+gui\phone\slider\horizontal_idle_thumb.png
+gui\phone\slider\vertical_hover_bar.png
+gui\phone\slider\vertical_hover_thumb.png
+gui\phone\slider\vertical_idle_bar.png
+gui\phone\slider\vertical_idle_thumb.png
+gui\scrollbar\horizontal_hover_bar.png
+gui\scrollbar\horizontal_hover_thumb.png
+gui\scrollbar\horizontal_idle_bar.png
+gui\scrollbar\horizontal_idle_thumb.png
+gui\scrollbar\vertical_hover_bar.png
+gui\scrollbar\vertical_hover_thumb.png
+gui\scrollbar\vertical_idle_bar.png
+gui\scrollbar\vertical_idle_thumb.png
+gui\slider\horizontal_hover_bar.png
+gui\slider\horizontal_hover_thumb.png
+gui\slider\horizontal_idle_bar.png
+gui\slider\horizontal_idle_thumb.png
+gui\slider\vertical_hover_bar.png
+gui\slider\vertical_hover_thumb.png
+gui\slider\vertical_idle_bar.png
+gui\slider\vertical_idle_thumb.png
+images\alina default.png
+images\alina default_sad.png
+images\alina happy.png
+images\alina happy_uniform.png
+images\alina normal_uniform.png
+images\alina smile_uniform.png
+images\bg bathroom.png
+images\bg busstop_day_summer.png
+images\bg hata_day.png
+images\bg hata_night.png
+images\bg kitchen_day.png
+images\bg larek_day.jpg
+images\bg room_day.jpg
+images\bg room_morning.jpg
+images\bg room_night.jpg
+images\bg street2_dusk.png
+images\bg street_day.png
+images\bodya default.png
+images\bodya speak.png
+images\frameback.png
+images\vlad default_sleep.png
+images\vlad nuded.png
+images\vlad sad.png
+images\vlad sweat_mayka.png
+images\vlad uniform_angry.png
+images\vlad uniform_normal.png
+images\vlad uniform_speak.png
+images\vlad uniform_speak2.png
+images\vlad_mama angry.png
+images\vlad_mama norm.png
+images\vlad_mama speak.png
+images\phone images\alina_received_icon.png
+images\phone images\alina_send_icon.png
+images\phone images\bodya_received_icon.png
+images\phone images\phone_background.png
+images\phone images\phone_foreground.png
+images\phone images\phone_received_frame.png
+images\phone images\phone_received_icon.png
+images\phone images\phone_send_frame.png
+images\phone images\phone_send_icon.png
+images\phone images\vlad_received_icon.png
+images\phone images\vlad_send_icon.png
+saves\1-1-LT1.save
+saves\1-2-LT1.save
+saves\_reload-2-LT1.save
+saves\auto-1-LT1.save
+saves\auto-10-LT1.save
+saves\auto-2-LT1.save
+saves\auto-3-LT1.save
+saves\auto-4-LT1.save
+saves\auto-5-LT1.save
+saves\auto-6-LT1.save
+saves\auto-7-LT1.save
+saves\auto-8-LT1.save
+saves\auto-9-LT1.save
+saves\navigation.json
+saves\persistent
+tl\english\common.rpy
+tl\english\common.rpyc
+tl\english\options.rpy
+tl\english\options.rpyc
+tl\english\screens.rpy
+tl\english\screens.rpyc
+tl\None\common.rpym
+tl\None\common.rpymc
+tl\ukrainian\common.rpy
+tl\ukrainian\common.rpyc
+tl\ukrainian\options.rpy
+tl\ukrainian\options.rpyc
+tl\ukrainian\screens.rpy
+tl\ukrainian\screens.rpyc
