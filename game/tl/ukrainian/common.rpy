@@ -452,27 +452,27 @@ translate ukrainian strings:
 
     # renpy/common/00gui.rpy:446
     old "Are you sure?"
-    new ""
+    new "Ти впевнений?"
 
     # renpy/common/00gui.rpy:447
     old "Are you sure you want to delete this save?"
-    new ""
+    new "Ви впевнені, що хочете видалити це збереження?"
 
     # renpy/common/00gui.rpy:448
     old "Are you sure you want to overwrite your save?"
-    new ""
+    new "Ви впевнені, що хочете перезаписати збереження?"
 
     # renpy/common/00gui.rpy:449
     old "Loading will lose unsaved progress.\nAre you sure you want to do this?"
-    new ""
+    new "При завантаженні буде втрачено незбережений прогрес.\nВи впевнені, що хочете це зробити?"
 
     # renpy/common/00gui.rpy:450
     old "Are you sure you want to quit?"
-    new ""
+    new "Ви впевнені, що хочете вийти?"
 
     # renpy/common/00gui.rpy:451
     old "Are you sure you want to return to the main menu?\nThis will lose unsaved progress."
-    new ""
+    new "Ви впевнені, що хочете повернутися до головного меню?\nЦе призведе до втрати незбереженого прогресу."
 
     # renpy/common/00gui.rpy:452
     old "Are you sure you want to end the replay?"
@@ -484,11 +484,11 @@ translate ukrainian strings:
 
     # renpy/common/00gui.rpy:454
     old "Are you sure you want to skip to the next choice?"
-    new ""
+    new "Ви впевнені, що хочете перейти до наступного варіанту?"
 
     # renpy/common/00gui.rpy:455
     old "Are you sure you want to skip unseen dialogue to the next choice?"
-    new ""
+    new "Ви впевнені, що хочете пропустити невидимий діалог до наступного вибору?"
 
     # renpy/common/00gui.rpy:456
     old "This save was created on a different device. Maliciously constructed save files can harm your computer. Do you trust this save's creator and everyone who could have changed the file?"

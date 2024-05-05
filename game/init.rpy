@@ -14,27 +14,25 @@ define config.mouse["default"] = [("gui/penis.png", 0,0)]
 define gg_money = 29
 define inventory = []
 
-#Влад2-------------------------
-define love = 0
+#ВладКун-------------------------
+
 
 #Мама Влада--------------------
-default love_mama = 50
 define take_mom_money = None
 
 
 #Аліна-------------------------
-default love_alina = 10
 define Alina_num = None
 define go_to_home_alina = None
 
 #Бодя--------------------------
 define check_bodya_in_club = None
 define Bodya_num = None
-default love_bodya = 0
 #Куратор-----------------------
-define love_currator = 0
 
 #Nvl-setup---------------------
+
+
 default maxlove = 100
 default minlove = 0
 define a_s_nvl = Character("Аліна", kind=nvl, image="nighten", callback=Phone_SendSound)

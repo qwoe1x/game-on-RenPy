@@ -1,34 +1,32 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
 While running game code:
-  File "game/script.rpy", line 193, in script call
-    call bus_with_alina from _call_bus_with_alina
-  File "game/labels.rpy", line 13, in script
-    alina "{cps=20}Стій...{/cps}так мені теж на нього" with flash
-  File "game/labels.rpy", line 13, in <module>
-    alina "{cps=20}Стій...{/cps}так мені теж на нього" with flash
-NameError: name 'flash' is not defined
+  File "renpy/common/00start.rpy", line 189, in script
+    python:
+  File "renpy/common/00start.rpy", line 190, in <module>
+    renpy.execute_default_statement(True)
+  File "game/lovemetr.rpy", line 11, in execute_default
+    default love_mama = 50
+Exception: store.love_mama is being given a default a second time.
 
 -- Full Traceback ------------------------------------------------------------
 
 Full traceback:
-  File "game/script.rpy", line 193, in script call
-    call bus_with_alina from _call_bus_with_alina
-  File "game/labels.rpy", line 13, in script
-    alina "{cps=20}Стій...{/cps}так мені теж на нього" with flash
-  File "D:\RenPy\renpy-8.1.3-sdk\renpy\ast.py", line 929, in execute
-    say_menu_with(self.with_, renpy.game.interface.set_transition)
-  File "D:\RenPy\renpy-8.1.3-sdk\renpy\ast.py", line 748, in say_menu_with
-    what = renpy.python.py_eval(expression)
-  File "D:\RenPy\renpy-8.1.3-sdk\renpy\python.py", line 1153, in py_eval
-    return py_eval_bytecode(code, globals, locals)
-  File "D:\RenPy\renpy-8.1.3-sdk\renpy\python.py", line 1146, in py_eval_bytecode
-    return eval(bytecode, globals, locals)
-  File "game/labels.rpy", line 13, in <module>
-    alina "{cps=20}Стій...{/cps}так мені теж на нього" with flash
-NameError: name 'flash' is not defined
+  File "renpy/common/00start.rpy", line 189, in script
+    python:
+  File "D:\RenPy\renpy-8.1.3-sdk\renpy\ast.py", line 1138, in execute
+    renpy.python.py_exec_bytecode(self.code.bytecode, self.hide, store=self.store)
+  File "D:\RenPy\renpy-8.1.3-sdk\renpy\python.py", line 1122, in py_exec_bytecode
+    exec(bytecode, globals, locals)
+  File "renpy/common/00start.rpy", line 190, in <module>
+    renpy.execute_default_statement(True)
+  File "D:\RenPy\renpy-8.1.3-sdk\renpy\exports.py", line 3982, in execute_default_statement
+    i.execute_default(start)
+  File "game/lovemetr.rpy", line 11, in execute_default
+    default love_mama = 50
+Exception: store.love_mama is being given a default a second time.
 
 Windows-10-10.0.22000 AMD64
 Ren'Py 8.1.3.23091805
 Fuhrer_My_Love 0.2.4
-Sat Apr 13 19:00:08 2024
+Sun May  5 17:09:22 2024

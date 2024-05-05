@@ -23,7 +23,7 @@ define gui.show_name = False
 
 ## Версия игры.
 
-define config.version = "0.2.4"
+define config.version = "0.2.5"
 
 
 ## Текст, помещённый в экран "Об игре". Поместите текст между тройными скобками.
@@ -124,7 +124,7 @@ define config.window_hide_transition = Dissolve(.2)
 ## в то время как любая другая цифра — это количество символов, печатаемых в
 ## секунду.
 
-default preferences.text_cps = 0
+default preferences.text_cps = 25
 
 
 ## Стандартная задержка авточтения. Большие значения означают долгие ожидания, а

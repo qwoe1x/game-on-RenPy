@@ -187,36 +187,53 @@ label day_2:
     play music "audio/cikadi.mp3" fadein 5 volume 0.1
     brain "{sc}{b}{i}{font=FOT-PopJoyStd-B.otf}{=scream_style}ЧОРТ{/b}{/font}{/i}{/=scream_style}{/sc}"
     vlad "{atl=fade_in_text}Я не встиг на автобус...{/atl=fade_in_text}"
-    vlad "Доведеться чекати"
+    vlad "Чекати{w=1}{cps=20}, або викликати таксі?"
     scene black with dissolve
-    if Alina_num:
-        call bus_with_alina from _call_bus_with_alina
-    else:
-        call bus_without_alina from _call_bus_without_alina
+    menu:
+        "Що мені зробити?"
+
+        "Викликати таксі на мамині гроші(-100)" if gg_money>=100:
+            #доробити
+            pass
+
+        "Почекаю на новий автобус":
+            if Alina_num:
+                call bus_with_alina from _call_bus_with_alina
+            else:
+                call bus_without_alina from _call_bus_without_alina
+        "Прогуляти пари":
+            pass
+
     stop music
     scene bg bus_school_afternoon with dissolve
     play audio "audio/school_bell.mp3" volume 0.5
     vlad "{cps=20}Схоже вже пара, треба бігти{/cps}"
     scene bg school_building_day with dissolve
-    voice "До цього моменту Влад ще не бачив будівлю коледжу. Вона вразила його, залишаючи приємні враження та атмосферу"
+    voice "{cps=25}До цього моменту Влад ще не бачив будівлю коледжу. Вона вразила його, залишаючи приємні враження та атмосферу"
     scene bg school_corridor with dissolve
     play sound "audio/background_sound_peoples.mp3" fadein 1.0 volume 0.5
-    brain "У коридорах все ще товпиться багато людей, і здається, що ніхто не поспішає на пару так, як це роблю я"
-    vlad "Наче цей кабінет"
+    brain "{cps=25}У коридорах все ще товпиться багато людей, і здається, що ніхто не поспішає на пару так, як це роблю я"
+    vlad "{cps=25}Наче цей кабінет"
     play sound "audio/wood-door-opeining-and-creaking.mp3"
     scene bg classroom_day with dissolve
     brain "В класі вже була вся група та наша кураторка...через це мені було ніяково"
     vlad "{cps=8}В-вибачте{/cps} {cps=20}за запізнення{/cps}"
     show currator_default with dissolve
-    currator "{fi=0-0.5}Нічого страшного, сідай швидше{/fi}"
+    show screen lovemetr_currator
+    currator "{fi=0-0.5}Ще один запізнився, сідайте поряд з Кухтіним в кінці{/fi}"
+    $ love_currator+=5
+    currator "Кхм, про що я там говорила?"
+    #додати відповідь
     hide currator_default
+    hide screen lovemetr_currator
     brain "Куратор розповідала як буде влаштовано наше студентське життя.{w} Але мене цікавило дещо інше{w=0.5}.{w=0.5}.{w=0.5}."
     show vlad2_uniform_normal with fade
-    brain "Біловолосий хлопець, що сидів зліва від мене біля вікна"
+    brain "Біловолосий хлопець, що сидів за одною партою зі мною біля вікна"
     brain "Раптом ми пересіклися поглядами"
     show vlad2_uniform_smile with fade
+    show screen lovemetr_kyn
     brain "Я {atl=bounce}збентежився{/atl}"
     brain "{cps=15}Завдяки сонечку я зміг повністю розглянути його вираз обличчя.{/cps} {w=1}{cps=20}Його посмішка осліпила мене.{/cps} {w=1}{cps=20}Веселий блиск його очей нагадував мені розквітаючі пелюстки квітки,{w=1} відкриваючі переді мною всесвіт радості та невичерпного оптимізму.{/cps}"
-    
+    $ love_kyn +=5
     call titles from _call_titles
     return
